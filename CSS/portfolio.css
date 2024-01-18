@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;800&display=swap');
+
+
+body{
+    font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    line-height: 1.88;
+    font-weight: 500;
+
+}
+
+.main-header{
+    
+    background-color: #ee763c;
+    color: white;
+    font-size: 13px;
+cursor: pointer;
+    font-weight: 600;
+    line-height: 1.88;
+    padding-top:8px;
+}
+
+.announcement-address-paragraph{
+    margin-right: 50px;
+}
+
+.social-logo{
+    font-size: 16px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+
+
+.btn-header{
+    border-radius: 0%;
+    color: white;    
+    padding: 20px 30px;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+    line-height: 1;
+    background-color: rgb(23, 23, 23);
+    border: none;
+}
+.btn-header:hover{
+    color: white;
+    
+    background-color: #ee763c;
+    
+}
+
+#logo{
+   width: 9rem;
+}
+
+.header a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;    
+    letter-spacing: 1.6px;
+    color: rgb(23, 23, 23);
+    color:#fff;
+}
+
+.header li{
+
+    margin-left: 1.4rem;
+    
+
+}
+
+.header a:hover{
+    text-decoration: underline;
+    color: #ee763c;
+}
+
+.header-text{
+    font-size: 36px;
+    line-height: 42px;
+    color: #fff;
+}
+
+.header{
+    background-image: url(../Images/Portfolio-1.jpg);
+    margin-bottom: 60px;
+}
+
+.portfolio-text1{
+    padding-top: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    color: #848484;
+    text-transform: uppercase;
+    
+    
+}
+
+.portfolio-text2{
+    letter-spacing: -2px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    color:#171717;
+    margin-bottom: 10px;
+    
+
+}
+
+.hero-section{
+    text-align: center;
+}
+
+.inner-nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.inner-nav a{
+    color: #777777;
+text-decoration: none;
+    padding: 12px 20px;
+    margin-right: 10px;
+}
+
+.inner-nav a:hover{
+    color: #ee763c;
+    text-decoration: underline;
+}
+
+.inner-nav li{
+    border: 1px solid #dee2e6;
+    margin-right: 4px;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.primary-btn{
+    background-color: #ee763c;
+    color: white;
+    border-radius: 0%;
+    padding: 20px 40px;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 6rem;
+    transition: all 0.35;   
+}
+.primary-btn:hover{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    
+}
+
+.footer{
+    background-image: url("../Images/background-footer.jpg");
+    padding-top: 100px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+
+
+
+.about h4{
+
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.about p{
+    color:#777777;
+    font-size: 15px;
+    line-height: 1.88;
+}
+
+
+
+.about i{
+    width: 42px;
+    height: 42px;
+    background: #0f0f0f;
+    color: white;
+}
+
+
+
+.about2 h4{
+    
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.pa{
+    color:#777777;
+    font-size: 15px;
+    line-height: 1.88;
+    cursor: pointer;
+}
+
+
+.icon-footer{
+    letter-spacing: 4px;
+}
+
+
+
+.abouty-3{
+    
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+
+.gallery img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 8px;
+
+    cursor: pointer;
+}
+
+.about-4{
+    
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+.input-footer{
+    width: 100%;
+    height: 60px;
+
+    border-radius: 0%;
+    border: none;
+    
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 1.88;
+    color: #777777;
+}
+
