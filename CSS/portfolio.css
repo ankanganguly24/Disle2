@@ -12,13 +12,13 @@ body{
 
 .main-header{
     
-    background-color: #ee763c;
-    color: white;
+    background-color: #0f0f0f;
+    color: #848484;
     font-size: 13px;
 cursor: pointer;
     font-weight: 600;
     line-height: 1.88;
-    padding-top:8px;
+    padding-top:12px;
 }
 
 .announcement-address-paragraph{
@@ -29,6 +29,7 @@ cursor: pointer;
     font-size: 16px;
     margin-right: 25px;
     cursor: pointer;
+    color: #fff;
 }
 
 
@@ -101,7 +102,7 @@ cursor: pointer;
 .portfolio-text2{
     letter-spacing: -2px;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 00;
     line-height: 1.2;
     color:#171717;
     margin-bottom: 10px;
@@ -253,5 +254,11 @@ text-decoration: none;
     font-weight: 450;
     line-height: 1.88;
     color: #777777;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-sec{
+        text-align: center;
+    }
 }
 
