@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;800&display=swap');
 
+
 body{
     font-family: 'Manrope', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    line-height: 1.88;
+    font-weight: 500;
+
 }
-
-
 
 .main-header{
     
@@ -87,152 +89,123 @@ cursor: pointer;
 }
 
 
-.text1{
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 1.4px;
-    color: #848484;
-    text-transform: uppercase;
-}
-
-.text2{
-    letter-spacing: -2px;
-    font-size: 50px;
-    font-weight: 800;
-    line-height: 1.2;
-    color: #171717;
-}
-
-.text3{
-    margin: 25px 0 0;
-    font-weight: 500;
-    line-height: 1.88;
-    color: #777777;
-}
-
-
-.icon-text i{
-    color:#ee763c;
-    margin-bottom: 20px;
-    font-size: 18px;
-    line-height: 1;
-    font-weight: 600;
-    letter-spacing: -0.72px;
-    margin-right: 10px;
-}
-
-.icon-text{
-    
-    margin-bottom: 20px;
-    color: #171717;
-    font-size: 18px;
-    line-height: 1;
-    font-weight: 600;
-    letter-spacing: -0.72px;
-
-}
-
-.form-group input{
-    border: none;
-    border-radius: 0%;
-    height: 59px;
-    font-size: 15px;
-    padding: 0 30px;
-    box-shadow: none;
-    background: #f4f4f4 ;
-    
-
-}
-
-.form-group textarea{
-    border: none;
-    height: 150px;
-    font-size: 15px;
-    padding: 0 30px;
-    box-shadow: none;
-    background: #f4f4f4 ;
-    padding-top: 10px;
-    border-radius: 0%;
-
-
-}
-
-.primary-btn{
-    font-size: 14px;
+.list-group-item:hover {
     background-color: #ee763c;
     color: #fff;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-    padding: 20px 40px;
-    line-height: 1;
-    border: none;
-    border-radius: 0%;
-    text-transform: uppercase;
-    transition: all 0.35s ease-in-out;
-    margin-bottom: 60px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-group-item:hover .bi-arrow-right-square {
+    transform: translateX(5px);
+    transition: transform 0.3s ease;
+  }
+/* LIST ITEMS */
+
+.card-cover {
+    position: relative;
 }
 
-.primary-btn:hover{
-    background-color: #171717;
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    z-index: 1;
+}
+
+.content-img {
+    width: 100%; /* Adjusted to the card width */
+    max-width: 100%;
+    height: auto;
+}
+/* header */
+
+
+.wrapper {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+background:rgba(0, 0, 0, 0.185);
+opacity: 0.7;
+}
+
+.link {
+color: #ffffff;
+text-decoration: none;
+text-transform: uppercase;
+padding: 12px 14px;
+font-size: 3rem;
+}
+.home{
+color: #ffffff;
+text-decoration: none;
+text-transform: uppercase;
+padding: 12px 24px;
+font-size:x-large;
+}
+
+.list-text{
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: none;
+   color: #777777;
+    font-weight: 600;
+    padding: 10px 20px;
+    letter-spacing: 0;
+    
+    font-weight: 900;
+
+}
+
+.list-text:hover{
     color: #fff;
     text-decoration: none;
 }
 
-
-.main-text{
-    font-size: 36px;
+h2{
+    font-size: 50px;
     font-weight: 800;
     line-height: 1.2;
-    color: #171717;
-    padding-top: 20px;
+    color:#171717;
+    margin-bottom: 10px;
+    letter-spacing: -2px;
+
 }
 
-.paragraph-text{
-    margin-top: 25px;
+p{
     font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.88;
-    color: #777777;
-    margin-bottom: 1rem;
-
+color: #777777;
+font-weight: 500;
+line-height: 1.88;
 }
 
-.important-text{
-    color:#ee763c;
-    font-size: 24px;
-    font-weight: 700;
+.box-para{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: -0.64px;
+    color:#0f0f0f;
+    
+}
+
+.m{
+    padding: 20px 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4{
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    color: #000;
+    font-weight: 800;
     line-height: 1.2;
-    letter-spacing: -0.96px;
-}
-
-.blog-section{
-    padding-right: 55px;
-    padding-left: 55px;
-}
-
-.icon-text{
-    
-    
-    color: #171717;
-    font-size: 18px;
-    line-height: 1;
-    font-weight: 600;
-    letter-spacing: -0.72px;
-
-}
-
-.main-div{
-    background: #fff;
-    box-shadow: 0px 10px 60px 0 rgba(0,0,0,0.07);
-}
-
-.child-div{
-    padding-top: 15px;
-    padding-right: 30px;
-    padding-bottom: 15px;
-    padding-left: 30px;
-    margin-bottom: 30px;
-    border: 2px solid #ee763c;
+    margin-bottom: 0.5rem;
 }
 
 .footer{
@@ -332,10 +305,9 @@ cursor: pointer;
     color: #777777;
 }
 
+
 @media screen and (max-width: 600px) {
     .footer-sec{
         text-align: center;
     }
 }
-
-
