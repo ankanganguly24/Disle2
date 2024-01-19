@@ -229,6 +229,10 @@ text-decoration: none;
         .content-img {
             padding-right: 40px;
         }
+
+        *{
+            overflow-x: hidden;
+        }
         
     }
     /* BOTTOM */
