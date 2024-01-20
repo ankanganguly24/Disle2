@@ -243,6 +243,17 @@ cursor: pointer;
 }
 
 
+@media (max-width: 600px){
+    .hidden-img{
+        display: none;
+    }
+    *{
+        overflow-x: hidden;
+    }
+    .img-2{
+        padding-right: 20px;
+    }
+}
 
 
 .about h4{
