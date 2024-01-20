@@ -700,6 +700,26 @@ li{
 }
 
 
+.our-testimonial-2{
+    background-image: url("Images/background-6.png");
+    text-align: center;
+    
+}
+
+
+
+.text-card{
+    
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 1.89;
+    padding: 45px 45px 75px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    position: relative;
+    color: #777777;
+}
+
+
 
 
 
