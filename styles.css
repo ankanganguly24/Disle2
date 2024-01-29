@@ -316,7 +316,7 @@ cursor: pointer;
     display: flex;
     justify-content: end;
     padding-top: 80px;
-    padding-bottom: 80px;
+    
     background-image: url("Images/Background-2.jpg");    
 }
 
@@ -459,11 +459,7 @@ li{
 }
 /* Our Services End */
 
-/* Our services responsive */
 
-
-
-/* Our services responsive end */
 
 /*Work Section*/
 
@@ -585,7 +581,7 @@ li{
 
 .testimonials{
   background-image: url("Images/background-4.jpg");
-  
+  position: relative;
     padding-top: 80px;
     padding-bottom: 80px;
   color: white;
@@ -621,7 +617,9 @@ li{
 .testimonial-input{
    background-color: #ee763c;
     margin-top: 30px;
-
+position: absolute;
+width: 30%;
+left: 55%;
     
     
 }
@@ -658,7 +656,7 @@ li{
 .our-testimonial-2{
     background-image: url("Images/background-6.png");
     text-align: center;
-    padding-top: 80px;
+    padding-top: 200px;
     padding-bottom: 80px;;
     
 }

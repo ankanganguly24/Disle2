@@ -30,7 +30,6 @@ cursor: pointer;
     color: #fff;
 }
 
-
 .list-items{
 text-decoration: none;
 }
@@ -343,10 +342,10 @@ text-decoration: none;
 .watch-section{
     display: flex;
     justify-content: end;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    
     background-image: url("../Images/Background-2.jpg");
-    margin-top: 40px;
+    
     
 }
 
@@ -448,11 +447,31 @@ li{
     background-image: url("../Images/about-us-bg.jpg");
 }
 
+
 .our-testimonial-2{
-    background-image: url("../Images/background-6.png");
+    background-image: url("Images/background-6.png");
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;;
+    
+}
+
+.text-card{
+    
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 1.89;
+    padding: 45px 45px 75px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    position: relative;
+    color: #777777;
+}
+
+.img-text-card{
+    position: absolute;
+    left: 80px;
+    bottom: -60px;
+
 }
 
 @media (max-width: 600px){
