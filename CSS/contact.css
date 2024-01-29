@@ -196,13 +196,13 @@ cursor: pointer;
     padding: 0px 25px;
     line-height: 145px;
     font-size: 64px;
-    color:#ee763c;
+    color:#fff;
     margin: 0px 20px 0px 20px; 
     transition: all 1s ease 0s;   
 }
 
 .pro-section-header{
-    padding-top: 30px;
+    padding-top: 20px;
     
     font-size: 20px;
     font-weight: 700;

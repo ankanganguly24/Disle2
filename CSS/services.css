@@ -47,7 +47,6 @@ cursor: pointer;
 }
 .btn-header:hover{
     color: white;
-    
     background-color: #ee763c;
     
 }
@@ -55,6 +54,99 @@ cursor: pointer;
 #logo{
    width: 9rem;
 }
+
+.services-section{
+    background-image: url("Images/Background-3.jpg");
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    
+}
+
+.services-text1{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    color: #848484;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+
+.services-text2{
+    letter-spacing: -2px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.2;
+    color:#171717;
+    margin-bottom: 40px;
+    
+    
+
+}
+
+.section-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.card{
+    border-radius: 0%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.cardtitle{
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    transition: all 300ms ease;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color:rgb(23, 23, 23);
+}
+
+.cardtext{
+    
+    font-size: 15px;
+    line-height: 2;
+    transition: all 300ms ease;
+    font-weight: 500;
+    color:#777777;
+    text-align: left;
+}
+
+.services-card-1{
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+   width: 250px; 
+   padding: 30px;
+   background-color: #fff;
+   position: absolute;
+}
+
+
+.bi-hammer{
+    font-size: 68px;
+    color:#ee763c;
+}
+
+.services-card-1 h4{
+    font-weight:600;
+}
+
+.agency-section{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 23%, rgba(59,59,59,1) 80%);
+    padding-top: 80px;
+    padding-bottom: 210px;
+    position: relative;
+}
+
+.agency-section .services-text2{
+    color:#777777;
+}
+
 
 .header a{
     text-decoration: none;
@@ -85,82 +177,23 @@ cursor: pointer;
 
 .header{
     background-image: url(../Images/Portfolio-1.jpg);
-    margin-bottom: 60px;
-}
-
-.services-section{
-    background-image: url("Images/Background-3.jpg");
-    
-
-    
-    text-align: center;
-    
-}
-
-
-.services-text1{
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 1.4px;
-    color: #848484;
-    text-transform: uppercase;
-    
-    
-}
-
-.services-text2{
-    letter-spacing: -2px;
-    font-size: 50px;
-    font-weight: 800;
-    line-height: 1.2;
-    color:#171717;
-    padding-bottom: 40px;
 
 }
 
-.section-cards{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 55px;
+.agency-section{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 23%, rgba(59,59,59,1) 80%);
+    padding-top: 80px;
+    padding-bottom: 210px;
+    position: relative;
 }
 
-.card{
-    border-radius: 0%;
-    text-align: left;
-}
-
-.cardtitle{
-    font-size: 20px;
-    letter-spacing: -0.8px;
-    transition: all 300ms ease;
-    margin-bottom: 0.5rem;
-    font-weight: 700;
-    line-height: 1.2;
-    color:rgb(23, 23, 23);
-}
-
-
-
-.card-bg :hover{
-    background-color: #ee763c;
-    color: white;
-}
-
-.cardtext{
-    
-    font-size: 15px;
-    line-height: 2;
-    transition: all 300ms ease;
-    font-weight: 500;
-    color:#777777;
-    text-align: left;
-}
 
 #envato-section{
     display: flex;
     justify-content: space-between;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding-top: 120px;
+    padding-bottom: 80px;
     cursor: pointer;
 
 }
@@ -171,10 +204,13 @@ cursor: pointer;
     padding-top: 100px;
     width: 100%;
     padding-bottom: 100px;
+    margin-top: 260px;
 }
 
 
-
+.dropdown-item{
+    color:  black;
+}
 
 .about h4{
 
